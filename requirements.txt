@@ -1,0 +1,14 @@
+# ReconViper — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# No external Python packages are strictly required — ReconViper uses
+# only the Python standard library (os, sys, subprocess, datetime,
+# re, shutil, argparse, textwrap, pathlib, typing).
+#
+# The actual recon tools (Subfinder, HTTPX, Nmap, Nuclei) are standalone
+# binaries that must be installed separately on the system PATH.
+#
+# This file exists for extensibility — add packages below if you
+# extend the script (e.g. requests, yaml, jinja2).
+#
+# See README.md for tool installation instructions.

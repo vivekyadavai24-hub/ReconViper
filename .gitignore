@@ -1,0 +1,35 @@
+# ReconViper — .gitignore
+
+# Reports (auto-generated scan output)
+reports/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env/
+venv/
+.venv/
+env/
+virtualenv/
+
+# IDE / editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS metadata files
+desktop.ini
+.DS_Store
+
+# Logs & temp
+*.log
+*.tmp
+temp/
